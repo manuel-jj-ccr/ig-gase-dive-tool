@@ -22,6 +22,10 @@ h1, h2 {
   color: #38bdf8;
 }
 
+nav button {
+  margin: 5px;
+}
+
 .tooltip {
   font-size: 0.9em;
   margin-top: 10px;
