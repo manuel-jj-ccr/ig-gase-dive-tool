@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IG Gase Dive Tool</title>
+  <title>IG Gase Dive Tool - Gasmischen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>IG Gase Dive Tool</h1>
-    <button id="modeToggle">Basic / Pro wechseln</button>
   </header>
 
   <main>
-    <section>
-      <h2>Tauchgangsberechnung</h2>
-      <button onclick="showCalculator()">MOD / END / EAD Rechner</button>
-    </section>
+    <h2>Gasmisch-Rechner</h2>
 
-    <section id="calculatorArea"></section>
-  </main>
+    <label>Flaschenvolumen (Liter)<br>
+      <input type="number" id="volume" value="12" min="1">
+    </label><br>
 
-  <footer>
-    <p>Powered by IG Gase</p>
-  </footer>
+    <label>Restdruck (bar)<br>
+      <input type="number" id="startPressure" value="60" min="0">
+    </label><br>
 
-<script src="script.js"></script>
-</body>
-</html>
+    <label>Aktuelles Gas O₂ %<br>
+      <input type="number" id="startO2" value="32" min="0" max="100">
+    </label><br>
+
+    <label>Aktuelles Gas He %<br>
+      <input type="number" id="startHe" value="0" min="0" max="100">
+    </label><br>
