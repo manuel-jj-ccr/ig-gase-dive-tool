@@ -18,11 +18,12 @@ header, footer {
   padding: 10px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #38bdf8;
 }
 
 .tooltip {
-  font-size: 0.8em;
-  color: #94a3b8;
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: #94e2ff;
 }
